@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding-top: 50px;
+}
+form{
+    width: 70%;
+    margin: auto;
+}
+h3{
+    margin: 0;
+    font-size: 1.2em;
+}
+.required{
+    font-size: 0.9em;
+    color: red;
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.name{
+    width: 40%;
+}
+input:nth-of-type(3){
+    width: 84%;
+}
+select{
+    margin-bottom: 10px;
+    width: 87%;
+    background: rgb(236, 234, 234);
+    border-radius: 7%;
+}
+textarea{
+    width: 85.5%;
+    margin-bottom: 10px;
+    height: 15vh;
+}
+input:last-of-type{
+    width: 87%;
+    color: #ffffff;
+    background: teal;
+    border: none;
+}
+input:last-of-type:hover{
+    background: darkmagenta;
+}
